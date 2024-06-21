@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro</title>
+
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .navbar ul {
+            width: 100%;
+            list-style: none;
+            margin: auto;
+            display: flex;
+            /* border: 2px solid black; */
+            background-color: rgb(17, 17, 17);
+            color: white;
+            justify-content: center;
+            /* align-items: center; */
+        }
+
+        li {
+            margin: 9px;
+            padding: 7px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            background-color: rgb(166, 116, 247);
+            /* width: 100%; */
+            height: 100vh;
+        }
+
+        #ankit {
+            margin: 30px;
+
+        }
+
+        .box1 {
+            width: 251px;
+            height: 329px;
+            border: 4px solid black;
+
+        }
+
+        .box2 {
+            width: 250px;
+            height: 329px;
+            border: 4px solid black;
+
+
+        }
+
+        h3 {
+            background-color: rgb(22, 22, 22);
+            color: white;
+        }
+
+
+        @media (min-width:0px) and (max-width:700px) {
+            .container {
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(238, 164, 5);
+                /* width: 100%; */
+                height: 100%;
+            }
+
+            img {
+                /* width: 100%; */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <div class="navbar">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+
+        <body>
+            <div class="container">
+                <p>
+                <h1 id="ankit">Design Website</h1>
+                <hr>
+                </p>
+                <div class="box1" id="ankit">
+                    <img src="./images/interior.jpg" alt="" width="250px" height="300px">
+
+                    <h3>Interior-Design </h3>
+                </div>
+                <div class="box2" id="ankit">
+                    <img src="./images/Wall design.jpg" alt="" width="250px" height="300px">
+                    <h3> Wall-Design </h3>
+
+                </div>
+            </div>
+    </section>
+
+</body>
+
+</html>
